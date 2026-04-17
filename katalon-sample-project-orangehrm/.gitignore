@@ -1,0 +1,11 @@
+bin/
+Libs/
+.classpath
+.project
+.settings/
+*.prj.bak
+Reports/
+Checkpoints/
+.env
+.cache/
+.playwright-cli/

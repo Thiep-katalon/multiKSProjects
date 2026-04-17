@@ -1,0 +1,60 @@
+[
+  {
+    "feature": "generate",
+    "date": "2025-06-13 10:30",
+    "url": "comparison_report_generate_code_20250613_103007.html",
+    "models": {
+      "ll1": {
+        "type": "katalon_ai",
+        "model": "gpt-4o-mini",
+        "description": "Baseline Model"
+      },
+      "ll2": {
+        "type": "personal_openai",
+        "model": "gpt-4o-mini",
+        "description": "Target Model"
+      }
+    },
+    "llm3": {
+      "provider": "gemini",
+      "model": "gemini-2.5-flash-preview-05-20",
+      "type": "evaluation"
+    },
+    "metrics": {
+      "consistency": 0.0,
+      "accuracy": 0.0,
+      "quality": 0.0,
+      "response_time": 1.0,
+      "overall": 0.65
+    }
+  },
+  {
+    "feature": "generate",
+    "date": "2025-06-13 07:58",
+    "url": "comparison_report_generate_code_20250613_075819.html",
+    "models": {
+      "ll1": {
+        "type": "katalon_ai",
+        "model": "gpt-4o-mini",
+        "description": "Baseline Model"
+      },
+      "ll2": {
+        "type": "personal_openai",
+        "model": "gpt-4o-mini",
+        "description": "Target Model"
+      }
+    },
+    "llm3": {
+      "provider": "gemini",
+      "model": "gemini-2.5-flash-preview-05-20",
+      "type": "evaluation"
+    },
+    "metrics": {
+      "consistency": 0.96,
+      "accuracy": 0.8,
+      "quality": 0.9525,
+      "response_time": 1.0,
+      "overall": 0.9041666666666667
+    }
+  }
+]

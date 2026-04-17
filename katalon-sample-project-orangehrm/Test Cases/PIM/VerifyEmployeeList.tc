@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC-A-3: Navigate to PIM and verify employee list table</description>
+   <name>VerifyEmployeeList</name>
+   <tag>pim,smoke,read-only</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc-a-3-verify-employee-list</testCaseGuid>
+</TestCaseEntity>
